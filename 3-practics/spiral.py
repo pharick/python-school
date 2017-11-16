@@ -1,23 +1,23 @@
 import turtle
 
 line = 20
-addition = 20
+add = 10
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
