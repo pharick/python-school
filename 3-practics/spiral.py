@@ -21,38 +21,38 @@ line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.forward(line)
 turtle.left(90)
-line = line + addition
+line = line + add
 
 turtle.exitonclick()
