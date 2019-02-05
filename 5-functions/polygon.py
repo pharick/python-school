@@ -5,4 +5,4 @@ def drawPolygon(sides, length):
         turtle.forward(length)
         turtle.left(360 / sides)
 
-drawPolygon(10, 50)
+drawPolygon(50, 1)
