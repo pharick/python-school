@@ -1,16 +1,16 @@
+from math import log2, trunc
+
 n = int(input())
 count = 0
 
-while n**0.5 % 1 != 0:
-    n -= 1
+s = trunc(log2(n))
 
-print(n)
+if s % 2 != 0:
+    s -= 1
 
-while n > 1:
-    print(n, end=' ')
-    n //= 4
+for i in range(s, 1, -2):
+    print(2**i, end=' ')
     count += 1
-
 
 if count == 0:
     print(0)
