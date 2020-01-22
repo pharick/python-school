@@ -12,5 +12,6 @@ def titledPolygon(sides, length, angle, number):
         drawPolygon(sides, length)
         turtle.right(angle)
 
+
 turtle.speed(0)
 titledPolygon(3, 100, -1, 100)
