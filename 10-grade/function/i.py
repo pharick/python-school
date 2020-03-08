@@ -18,10 +18,7 @@ def main():
     for i in range(a, b + 1):
         d = divs_sum(i)
 
-        if b < d:
-            continue
-
-        if i < d and divs_sum(d) == i:
+        if i <= b and divs_sum(d) == i and i < d:
             print('(', i, ',', d, ')', sep='', end=' ')
             count += 1
 
